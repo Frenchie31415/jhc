@@ -1,0 +1,30 @@
+
+.textAbout h1 {
+    line-height: 0;
+}
+
+.textAbout p {
+    line-height: 2.2em;
+    text-align: center;
+}
+
+.col1 {
+    display: grid;
+    grid-template-columns: 34% 66%;
+}
+
+.col2 {
+    display: grid;
+    grid-template-columns: 66% 34%;
+    margin-top: 80px;
+}
+
+.hiddenText {
+    display: none;
+    transition: 1s;
+}
+
+.showText {
+    display: block;
+    transition: 1s;
+}

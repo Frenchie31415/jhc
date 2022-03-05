@@ -1,5 +1,3 @@
--Move Siderbar css -> Sidebar.css
--Correct media queries to device instead of screen width in Nav.js
 -Layout sections s.t. they are responsive
 -Fix navigation links to link to section
 -Copy and paste components across from previous project

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SideBar from "./Sidebar";
+import '../css/SideBar.css';
 import '../css/Nav.css';
 
 class Nav extends Component{

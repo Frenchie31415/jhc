@@ -1,0 +1,75 @@
+.outterContainer {
+    width: 100%;
+    padding: 50px 0;
+    display: block;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 130px 1024px 130px auto;
+    margin: 0 auto;
+}
+
+.left {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.mobileHeader {
+    display: none;
+    text-align: center;
+}
+
+.left h3 {
+    padding: 0;
+    margin: 0;
+    line-height: 1.8em;
+}
+
+.headingBar {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.headingBarMobile {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mobileHeader h2 {
+    line-height: 0.2em;
+}
+    
+.contentInsert {
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 1284px) {
+    .container {
+        display: flex;
+        grid-template-columns: 0px 0px auto 0px 0px;
+    }
+
+    .left .desktopHeader {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .mobileHeader {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
