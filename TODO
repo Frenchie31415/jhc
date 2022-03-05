@@ -1,7 +1,7 @@
--Refactor sections
--Make sure link on nav goes to the top of the section
--Layout sections s.t. they are responsive
+-Make sure link on nav goes to the top of the section (Semi-fixed)
+-Layout sections s.t. they are responsive (TODO: FaceBook)
 -Fix navigation links to link to section
 -Copy and paste components across from previous project
 -Ensure all trellos points are corrected
+-Email Jackie regarding SSL, Hosting and Facebook token sign up (Going to take for fucking everrrr)
 -SEO

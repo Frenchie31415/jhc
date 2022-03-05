@@ -1,0 +1,120 @@
+.fBContainer {
+    display: block;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#FaceBook {
+    top: -100px;
+    position: relative;
+}
+
+#contentFb {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.barTemplate {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+}
+
+.barTemplate2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.mobilePara {
+    display: block;
+}
+
+.fb {
+    z-index: 0;
+}
+
+.fbPost {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.mobileButton {
+    display: none;
+}
+
+iframe {
+    z-index: 0;
+}
+
+.text {
+    padding: 0px 10%;
+}
+
+.text h1 {
+    line-height: 0;
+}
+
+.text p {
+    line-height: 2.2em;
+}
+
+.sectionBar {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    align-self: center;
+    justify-self: center;
+}
+
+.button {
+    height: 60px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 600px) { 
+    .contentFb {
+        width: 98%;
+        display: grid;
+        grid-template-columns: auto 0px;
+        margin: 0 auto;
+    }
+
+    .fb {
+        width: 100%;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .mobileButton {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .mobilePara {
+        display: none;
+    }
+}

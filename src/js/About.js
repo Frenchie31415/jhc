@@ -13,8 +13,8 @@ class About extends Component {
 
     render() {
         return(
-            <Section title="About">
-                <div class="outterContainer">
+            <Section title="About" name="about">
+                <div class="contentContainer">
                     <div id="About">
                         <div class="textAbout">
                             <div class="sectionBar"></div>

@@ -2,8 +2,8 @@ import '../css/Section.css';
 
 function Section(props) {
     return (
-        <div className="Section">
-            <div class="outterContainer">
+        <div className="Section" id={props.name}>
+            <div class="sectionContainer">
                 <div class="container">
                     <div class="farLeft"></div>
                     <div class="left">
