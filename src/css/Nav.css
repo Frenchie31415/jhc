@@ -1,0 +1,231 @@
+mobile {
+    display: none;
+  }
+  
+  .menu {
+    display: flex;
+    width: 944px;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: baseline;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 5px;
+    background-color:rgb(255, 255, 255);
+    width: 1024px;
+    margin: 0 auto;
+    transition: 1s;
+    z-index:1000;
+  }
+  
+  .barScrolled {
+    width: 100%;
+    height: 5px;
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin: 0 auto;
+    transition: 1s;
+    z-index: 1000;
+  }
+  
+  .fixedContainer {
+    position: fixed;
+    width: 100%;
+    transition: 1s;
+    margin-top: 30px;
+    z-index: 1000;
+  }
+  
+  .fixedContainerScrolled {
+    position: fixed;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 1);
+    transition: 1s;
+    margin-top: 0;
+    z-index: 1000;
+  }
+  
+  .fixedContainerMobile {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .scrollingContainer {
+    position: fixed;
+    width: 100%;
+    background-color: pink;
+    z-index: 1000;
+  }
+  
+  .menuMobileScrolled a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .desktopLink, .logo{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .destopLink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .desktopLinkScrolled {
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: red;
+    transition-duration: 500ms;
+  }
+  
+  .menuMobile a:hover, .menuMobileScrolled a:hover {
+    color: red;
+    transition-duration: 500ms;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .menu {
+      width: 767px;
+    }
+  }
+  
+  @media only screen and (max-width: 740px) {
+    .menuMobile {
+      width: 100vw;
+      height: 100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      transition: 1s;
+    }
+  
+    .menuMobileScrolled {
+      width: 100vw;
+      height: 110px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      background-color: rgba(255, 255, 255, 1);
+      border-bottom: 5px solid rgba(0, 0, 0, 0.4);
+      transition: 1s;
+    }
+  
+    .mobile {
+      display: block;
+    }
+  
+    .menu, .bar {
+      display: none;
+    }
+  
+    .menuMobile .logo, .menuMobileScrolled .logo {
+      margin: 0 auto;
+      padding: 0;
+      grid-column: 2 / 3;
+      grid-row: 1;
+    }
+  
+    .desktopLink, .desktopLinkScrolled {
+      display: none;
+    }
+  
+    .menuScrolled {
+      display: none;
+    }
+  
+    #page-wrap {
+      text-align: center;
+    
+      /* Prevent sidebar from showing a scrollbar on page */
+      overflow: auto;
+    }
+    
+    /* Individual item */
+    .bm-item {
+      display: inline-block;
+    
+      /* Our sidebar item styling */
+      text-decoration: none;
+      margin-bottom: 10px;
+      color: #000000;
+      transition: color 0.2s;
+    }
+    
+    /* Change color on hover */
+    .bm-item:hover {
+      color: rgb(255, 0, 0);
+    }
+    
+    /* Position and sizing of burger button */
+    .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 36px;
+      top: 40px;
+    }
+    
+    /* Color/shape of burger icon bars */
+    .burger-bars-scrolled {
+      background: #000000;
+      transition: 1s;
+    }
+  
+    /* Color/shape of burger icon bars */
+    .burger-bars {
+      background: #ffffff;
+      transition: 1s;
+    }
+  
+    .bm-burger-bars-hover {
+      background-color: red;
+    }
+    
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+    
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: #000000;
+    }
+    
+    /* General sidebar styles */
+    .bm-menu {
+      background: #ffffff;
+      padding: 2.5em 1.5em 0;
+      font-size: 1.15em;
+    }
+    
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #ffffff;
+    }
+    
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #fd0000;
+    }
+    
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
