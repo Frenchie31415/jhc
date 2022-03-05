@@ -90,9 +90,10 @@
     transition-duration: 500ms;
   }
 
-  .logo {
+  .logo, .logoScrolled {
       display: none;
   }
+
   
   @media only screen and (max-width: 1024px) {
     .menu {
@@ -104,6 +105,15 @@
     .logo {
         display: block;
         align-self: flex-end;
+    }
+
+    .logoScrolled {
+      display: block;
+      align-self: center;
+      grid-column: 2 / 3;
+      grid-row: 1;
+      margin: 0 auto;
+      padding: 0;
     }
     
     .menuMobile {
@@ -159,5 +169,4 @@
       /* Prevent sidebar from showing a scrollbar on page */
       overflow: auto;
     }
-    
   }

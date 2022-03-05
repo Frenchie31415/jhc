@@ -14,7 +14,7 @@ class SideBar extends Component {
   render() {
     return(
       <Menu {...this.props}>
-        <a className="menu-item" href="#navContainer">
+        <a className="menu-item" href="#Home">
           Home
         </a>
 
@@ -22,7 +22,7 @@ class SideBar extends Component {
           FaceBook
         </a>
 
-        <a className="menu-item" href="#contentAbout">
+        <a className="menu-item" href="#About">
           About
         </a>
 

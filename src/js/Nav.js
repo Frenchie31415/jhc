@@ -36,7 +36,8 @@ class Nav extends Component{
         fixedContainerDesktop: 'fixedContainerScrolled',
         bar: "barScrolled",
         desktopLink: "desktopLinkScrolled",
-        burgerBar: "burger-bars-scrolled"
+        burgerBar: "burger-bars-scrolled",
+        logo: "logoScrolled"
       });
     } else {
       this.setState({
@@ -44,7 +45,8 @@ class Nav extends Component{
         fixedContainerDesktop: 'fixedContainer',
         bar: "bar",
         desktopLink: "desktopLink",
-        burgerBar: "burger-bars"
+        burgerBar: "burger-bars",
+        logo: "logo"
       }); 
     }
   }
@@ -65,7 +67,7 @@ class Nav extends Component{
           <div class="fixedContainerMobile">
             <div class="mobile">
               <div class={this.state.menuMobile}>
-                <a href="#" class="logo"><h1>Logo</h1></a>
+                <a href="#" class={this.state.logo}><h1>Logo</h1></a>
                 <SideBar pageWrapId={"page-wrap"} outerContainerId={"menuMobile"} burgerBarClassName={this.state.burgerBar}/>
               </div>
             </div>
