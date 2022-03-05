@@ -55,8 +55,8 @@ class Nav extends Component{
           <div class={this.state.fixedContainerDesktop}>
             <div class="menu">
               <a href="#contentFb" class={this.state.desktopLink}>FaceBook</a>
-              <a href="#contentAbout" class={this.state.desktopLink}>About</a>
-              <a href="#navContainer" class={this.state.desktopLink}><h1>Logo</h1></a>
+              <a href="#About" class={this.state.desktopLink}>About</a>
+              <a href="#Home" class={this.state.desktopLink}><h1>Logo</h1></a>
               <a href="#contentGallery" class={this.state.desktopLink}>Gallery</a>
               <a href="#containerFooter" class={this.state.desktopLink}>Contact Us</a>
             </div>

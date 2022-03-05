@@ -54,6 +54,52 @@
     margin-top: 80px;
 }
 
+.barTemplate {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px auto;
+    column-gap: 10px;
+}
+
+.barTemplate2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.sectionBar {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    align-self: center;
+    justify-self: center;
+}
+
+.button {
+    height: 60px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+    transition: 1s;
+}
+
 @media only screen and (max-width: 1284px) {
     .container {
         display: flex;
