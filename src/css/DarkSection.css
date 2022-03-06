@@ -22,40 +22,45 @@
     padding: 50px 0;
 }
 
-.left {
+.darkLeft {
     display: inline-flex;
     flex-direction: column;
 }
 
 
-.mobileHeader {
+.darkMobileHeader {
     display: none;
     text-align: center;
 }
 
-.left h3 {
+.darkMobileHeader h2 {
+    color: white;
+}
+
+.darkLeft h3 {
     padding: 0;
     margin: 0;
     line-height: 1.8em;
+    color: white;
 }
 
-.headingBar {
+.darkHeadingBar {
     width: 50px;
     height: 5px;
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
-.headingBarMobile {
+.darkHeadingBarMobile {
     width: 50px;
     height: 5px;
-    background-color: black;
+    background-color: white;
     margin: 0 auto;
     padding: 0;
 }
 
-.mobileHeader h2 {
+.darkMobileHeader h2 {
     line-height: 0.2em;
 }
     
@@ -77,26 +82,26 @@
     column-gap: 10px;
 }
 
-.sectionBar {
+.darkSectionBar {
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color: white;
     align-self: center;
     justify-self: center;
 }
 
-.button {
+.darkButton {
     height: 60px;
     width: 100%;
     line-height: 50px;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid white;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     transition: 1s;
     align-self: center;
@@ -104,15 +109,11 @@
     margin: 0 auto;
 }
 
-#facebook {
-    background-color: white;
+#gallery {
+    background-color: black;
 }
 
-#about {
-    background-color: rgb(233, 233, 233);
-}
-
-.button:hover {
+.darkButton:hover {
     background-color: #e7e7e7;
     transition: 1s;
 }
@@ -123,7 +124,7 @@
         grid-template-columns: 0px 0px auto 0px 0px;
     }
 
-    .left .desktopHeader {
+    .darkLeft .desktopHeader {
         display: none;
     }
 
@@ -136,15 +137,15 @@
         margin-top: 0;
     }
 
-    .sectionBar {
+    .darkSectionBar {
         width: 100%;
         height: 5px;
-        background-color: black;
+        background-color: white;
         align-self: center;
         justify-self: center;
     }
 
-    .mobileHeader {
+    .darkMobileHeader {
         display: block;
     }
 }
