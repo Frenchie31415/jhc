@@ -106,10 +106,12 @@
 
 #facebook {
     background-color: white;
+    scroll-margin-block-start: 110px;
 }
 
 #about {
     background-color: rgb(233, 233, 233);
+    scroll-margin-block-start: 110px;
 }
 
 .button:hover {

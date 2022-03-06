@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SideBar from "./Sidebar";
 import '../css/SideBar.css';
 import '../css/Nav.css';
+import FaceBook from "./FaceBook";
 
 class Nav extends Component{
   constructor(props) {
@@ -56,8 +57,8 @@ class Nav extends Component{
         <div className="Nav">
           <div class={this.state.fixedContainerDesktop}>
             <div class="menu">
-              <a href="#facebook" class={this.state.desktopLink}>FaceBook</a>
-              <a href="#About" class={this.state.desktopLink}>About</a>
+              <a href ="#facebook" class={this.state.desktopLink}>FaceBook</a>
+              <a href="#about" class={this.state.desktopLink}>About</a>
               <a href="#Home" class={this.state.desktopLink}><h1>Logo</h1></a>
               <a href="#contentGallery" class={this.state.desktopLink}>Gallery</a>
               <a href="#containerFooter" class={this.state.desktopLink}>Contact Us</a>
@@ -67,7 +68,7 @@ class Nav extends Component{
           <div class="fixedContainerMobile">
             <div class="mobile">
               <div class={this.state.menuMobile}>
-                <a href="#" class={this.state.logo}><h1>Logo</h1></a>
+                <a href="#" class={this.state.logo}><h1 class="logo">Logo</h1></a>
                 <SideBar pageWrapId={"page-wrap"} outerContainerId={"menuMobile"} burgerBarClassName={this.state.burgerBar}/>
               </div>
             </div>

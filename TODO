@@ -1,4 +1,4 @@
--Make sure link on nav goes to the top of the section (Semi-fixed)
+-Make sure link on nav goes to the top of the section (Need to fix for desktop (check media queries))
 -Layout sections s.t. they are responsive (TODO: FaceBook)
 -Fix navigation links to link to section
 -Copy and paste components across from previous project

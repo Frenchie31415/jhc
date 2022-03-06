@@ -68,20 +68,6 @@
     margin-top: 80px;
 }
 
-.barTemplate {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100px auto;
-    column-gap: 10px;
-}
-
-.barTemplate2 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
-}
-
 .darkSectionBar {
     width: 100%;
     height: 5px;
