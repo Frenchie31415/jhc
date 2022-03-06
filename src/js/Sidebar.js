@@ -18,7 +18,7 @@ class SideBar extends Component {
           Home
         </a>
 
-        <a className="menu-item" href="#contentFb">
+        <a className="menu-item" href="#facebook">
           FaceBook
         </a>
 
@@ -30,7 +30,7 @@ class SideBar extends Component {
           Gallery
         </a>
 
-        <a className="menu-item" href="#contentFooter">
+        <a className="menu-item" href="#contactUs">
           Contact Us
         </a>
       </Menu>

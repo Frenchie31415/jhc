@@ -18,7 +18,7 @@ class Gallery extends Component{
                         <div class="tile"></div>
                         <div class="tile"></div>
                         <div class="sectionBarGrid"></div>
-                            <a href="#" class="buttonGrid" onClick={this.handleClick}>See Gallery</a>
+                        <a href="#" class="buttonGrid" onClick={this.handleClick}>See Gallery</a>
                         <div class="sectionBarGrid"></div>
                     </div>
                     <div class="gridMobile">

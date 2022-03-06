@@ -1,0 +1,46 @@
+#contactUs {
+    background-color: black;
+    height: 50vh;
+    margin: 0;
+}
+
+.contentGrid {
+    width: 1024px;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.block p {
+    color: white;
+    height: 30vh;
+}
+
+.smallPrint {
+    width: 1024px;
+    margin: 0 auto;
+    color: white;
+}
+
+h6 .smallPrintText {
+    font-size: xx-small;
+    font-weight: 200;
+}
+
+#contactUs {
+    scroll-margin-block-start: 115px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contentContainer {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .smallPrint {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

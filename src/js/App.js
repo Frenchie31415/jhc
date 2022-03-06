@@ -3,6 +3,7 @@ import Landing from './Landing.js';
 import FaceBook from './FaceBook.js';
 import About from './About.js';
 import Gallery from './Gallery.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <FaceBook/>
       <About/>
       <Gallery/>
+      <Footer/>
     </div>
   );
 }

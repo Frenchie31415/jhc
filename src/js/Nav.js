@@ -60,15 +60,15 @@ class Nav extends Component{
               <a href ="#facebook" class={this.state.desktopLink}>FaceBook</a>
               <a href="#about" class={this.state.desktopLink}>About</a>
               <a href="#Home" class={this.state.desktopLink}><h1>Logo</h1></a>
-              <a href="#contentGallery" class={this.state.desktopLink}>Gallery</a>
-              <a href="#containerFooter" class={this.state.desktopLink}>Contact Us</a>
+              <a href="#gallery" class={this.state.desktopLink}>Gallery</a>
+              <a href="#contactUs" class={this.state.desktopLink}>Contact Us</a>
             </div>
             <div class={this.state.bar}></div>
           </div>
           <div class="fixedContainerMobile">
             <div class="mobile">
               <div class={this.state.menuMobile}>
-                <a href="#" class={this.state.logo}><h1 class="logo">Logo</h1></a>
+                <a href="#" class={this.state.logo}><h1>Logo</h1></a>
                 <SideBar pageWrapId={"page-wrap"} outerContainerId={"menuMobile"} burgerBarClassName={this.state.burgerBar}/>
               </div>
             </div>

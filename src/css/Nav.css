@@ -108,6 +108,7 @@
     }
 
     .logoScrolled {
+      color: black;
       display: block;
       align-self: center;
       grid-column: 2 / 3;

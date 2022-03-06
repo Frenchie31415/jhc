@@ -31,6 +31,8 @@
 .mobileHeader {
     display: none;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .left h3 {
@@ -148,5 +150,16 @@
 
     .mobileHeader {
         display: block;
+        margin-bottom: 20px;
+    }
+
+    #facebook {
+        background-color: white;
+        scroll-margin-block-start: 115px;
+    }
+    
+    #about {
+        background-color: rgb(233, 233, 233);
+        scroll-margin-block-start: 115px;
     }
 }
